@@ -9,5 +9,14 @@ This lab focuses on practicing graph-based queries using **Neo4j** and the **Mov
 1. **Install Neo4j Desktop or use Neo4j Sandbox / Neo4j Aura.**
 2. **Open the Neo4j Browser** and run the following command to preload the sample data (if it’s not already available):
 
-```cypher
-:play movies
+## The dataset includes:
+	•	Nodes:
+	•	Movie
+	•	Person
+	•	Genre (optional, depending on dataset version)
+	•	Relationships:
+	•	ACTED_IN
+	•	DIRECTED
+	•	PRODUCED
+	•	REVIEWED
+	•	FOLLOWS
